@@ -1,82 +1,85 @@
 # DataWare_House
-Data Warehouse and Analytics Project
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
-🏗️ Data Architecture
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
+📊 DataWare_House – Data Warehouse & Analytics Project
+Welcome to the Data Warehouse and Analytics Project! 🚀
+This repository showcases a complete data engineering and analytics solution—from building a modern data warehouse to generating impactful insights. Ideal as a portfolio project, it follows industry best practices in ETL development, data modeling, and SQL-based reporting.
 
-Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
-📖 Project Overview
-This project involves:
+🏗️ Data Architecture – Medallion Framework
+We implement the Medallion Architecture, structured into three layers:
 
-Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+Bronze Layer: Raw data ingestion directly from CSV files into SQL Server.
 
-SQL Development
-Data Architect
-Data Engineering
-ETL Pipeline Developer
-Data Modeling
-Data Analytics
-🛠️ Important Links & Tools:
-Everything is for Free!
+Silver Layer: Data cleansing, standardization, and transformation.
 
-Datasets: Access to the project dataset (csv files).
-SQL Server Express: Lightweight server for hosting your SQL database.
-SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
-Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-DrawIO: Design data architecture, models, flows, and diagrams.
-Notion: Get the Project Template from Notion
-Notion Project Steps: Access to All Project Phases and Tasks.
-🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Gold Layer: Business-ready, analytical models designed using star schema.
 
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-Scope: Focus on the latest dataset only; historization of data is not required.
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-BI: Analytics & Reporting (Data Analysis)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
+📖 Project Highlights
+✔️ Key Components:
+Data Architecture: Structured with modern layered architecture.
+
+ETL Pipelines: Automated extraction, transformation, and loading into SQL Server.
+
+Data Modeling: Creation of optimized fact and dimension tables.
+
+Analytics: SQL dashboards and reports to surface actionable insights.
+
+🎯 Ideal For:
+SQL Developers
+
+Data Architects
+
+ETL Pipeline Developers
+
+Aspiring Data Engineers
+
+Business Analysts
+
+🛠 Tools & Resources
+📁 Datasets – ERP and CRM data in CSV format
+
+🖥️ SQL Server Express – Lightweight SQL environment
+
+🛠️ SSMS (SQL Server Management Studio) – GUI for managing SQL Server
+
+🧠 DrawIO – For architecture, models, and flow diagrams
+
+📚 Notion – Project planning & task breakdown
+
+🧪 Test Scripts – Data validation and quality assurance
+
+🚀 Project Goals
+📌 Data Engineering
+Objective: Build a modern data warehouse in SQL Server for centralized, query-optimized data.
+
+Scope:
+
+Integrate ERP & CRM data from CSV
+
+Clean and deduplicate records
+
+Design a star schema for analytics
+
+No need for data historization
+
+📈 Data Analytics
+Objective: Use SQL to uncover insights in:
 
 Customer Behavior
-Product Performance
-Sales Trends
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to docs/requirements.md.
+Product Performance
+
+Sales Trends
+
+
 
 📂 Repository Structure
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+
+<p align="center">
+  <img src="Screenshot 2025-04-25 at 7.02.53 AM.png" alt="Repository Structure" width="700"/>
+</p>
+
+
+
+<p align="center">
+  <img src="Screenshot 2025-04-25 at 7.05.48 AM.png" alt="Data Architecture Diagram" width="700"/>
+</p>
